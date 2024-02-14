@@ -1,15 +1,21 @@
+
+// Шрифт 
 @font-face {
   font-family: "Inter";
   src: url("./fonts/Inter-Regular.ttf") format("ttf");
   font-weight: 400;
 }
 
+
+// Переменные 
 $item_input_color: #9e9e9e;
 $item_background_color: #f0f0f0;
 $add_item_button: #267dff;
 $add_item_button_hover: #113e83;
 $animation_transition_time: 0.3s;
 
+
+// Ресет стилей браузера
 *,
 *::before,
 *::after {
@@ -89,6 +95,7 @@ body {
   }
 }
 
+// Анимации для улучшения UX
 
 @media (hover: hover) {
   .addItemBtn:hover {
